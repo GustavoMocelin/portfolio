@@ -1,0 +1,106 @@
+body{margin: 0;}
+p{margin: 0;}
+a{text-decoration: none;}
+.cabecalho{width:100%;float:left;height:140px;background: #313131;}
+.linha{width: 100%;float: left;height: 6px;background: #4c4b4b;}
+.margin-auto{width: 1200px;margin:0 auto;height: 100%;}
+.logo{font:30px arial;color:#fff;width:25%;height:134px;float:left;display: flex;align-items: center;margin: 0 0 0 10%;}
+
+.direita{width: 36%;float: right;margin: 0 10% 0 0;}
+.cima-contato{width: 100%;float: left;margin: 25px 0 0 0;}
+.cima-contato .email{height: 30px;display:flex;align-items:center;float: left;background: url(../img/envelope.svg) no-repeat left;color:#fff;padding: 0 0 0 25px;background-size:15px 20px;font-family: Arial, Helvetica, sans-serif;}
+.cima-contato .face{width: 28px;height: 29px;float: left;background: url(../img/face.svg)no-repeat center #224191;background-size: 21px 21px;border-radius: 6px 6px;margin: 0 10px 0 20px;}
+
+.nav{width: 100%;float: left;height: 50px;display: flex;justify-content: space-between;align-items: center;margin: 14px 0 0 0;border-top: 2px solid #4c4b4b;padding: 7px 0 0 0;}
+.nav a{float: left;font-family: Arial, Helvetica, sans-serif;color:#fff;text-decoration: none;font-size: 14px;}
+.nav a:hover{color: #426bd3;}
+
+.engloba-secao1{width: 100%;float: left;margin: 110px 0 0 0;}
+.foto{width:25%;height:300px;float:left;background: url(../img/eu3.jpg)no-repeat center;background-size: 300px 300px;margin:0 0 0 20%;box-shadow:-2px 6px 17px 1px #000;position: relative;}
+.foto p{font-family: Arial, Helvetica, sans-serif;font-style: italic;font-size: 20px;color:#3d3d3d;position: absolute;bottom:-50px;width: 100%;text-align: center;}
+.fundo-secao1{width: 100%;float: left;background:#b8f2fb;height: 560px;box-shadow: -1px 1px 4px 0 #3d3d3d;}
+.skills{width: 50%;float: left;}
+
+.sites{width: 50%;float: left;margin: 10px 0 0 10%;}
+.img-sites{width: 100%;float: left;height: 30px;background: url(../img/site.png) no-repeat center;background-size: 30px 30px;margin: 0 0 10px 0;}
+.sites p{text-align: center;line-height: 25px;color:#313131;font-family: Arial, Helvetica, sans-serif;font-size: 14px;}
+
+.desen{width: 50%;float: right;margin: 50px 0 50px 10%;}
+.img-desen{width: 100%;float: left;height: 30px;background: url(../img/busca.png) no-repeat center;background-size: 30px 30px;margin: 0 0 10px 0;}
+.desen p{text-align: center;line-height: 25px;color:#313131;font-family: Arial, Helvetica, sans-serif;font-size: 14px;}
+
+.pro{width: 50%;float: left;margin: 0 0 0 10%;}
+.img-pro{width: 100%;float: left;height: 30px;background: url(../img/programacao.png) no-repeat center;background-size: 30px 30px;margin: 0 0 10px 0;}
+.pro p{text-align: center;line-height: 25px;color:#313131;font-family: Arial, Helvetica, sans-serif;font-size: 14px;}
+
+.engloba-secao2{width: 100%;float: left;margin: 80px 0 0 0;display: flex;justify-content: space-between;flex-wrap: wrap;}
+.engloba-secao2 a{margin: 0 0 30px 0;}
+.portfolio{font-family: Arial, Helvetica, sans-serif;font-size: 20px;color:#000;float: left;width: 100%;text-align: center;margin:0 0 50px 0 ;}
+
+.site{width: 25%;float: left;height: 200px;}
+.site1{width: 100%;height:150px;float: left;background:url(../img/portfolio/site.jpg)no-repeat center ;background-size: contain;}
+.site p {font-size: 16px;font-family: Arial, Helvetica, sans-serif;text-align: center;margin:0 0 10px 0;}
+
+.fundo-footer{width: 100%;height:300px;float: left;background: #0f0606;margin: 100px 0 0 0;}
+.titulo{font-family: Arial, Helvetica, sans-serif;font-size: 20px;color:#fff;float: left;width: 100%;text-align: center;margin:50px 0 ;}
+.contato{width: 100%;float: left;display: flex;justify-content: center;}
+.email{float: left;background: url(../img/envelope.svg) no-repeat left;color:#fff;padding: 0 0 0 25px;background-size:15px 20px;font-family: Arial, Helvetica, sans-serif;text-align: center;}
+.engloba-email{width: 100%;float: left;display: flex;justify-content: center;margin: 0 0 20px 0;}
+.engloba-redes{width:22%;float: left;display: flex;justify-content: center;}
+.linke{width: 30px;height: 30px;float: left;background: url(../img/linkedin.svg)no-repeat center;background-size: 35px 35px;margin: 0 10px 0 0;}
+.face{width: 28px;height: 29px;float: left;background: url(../img/face.svg)no-repeat center #224191;background-size: 21px 21px;border-radius: 6px 6px;}
+
+.linke:hover{transform:scale(1.2);width: 30px;height: 30px;float: left;background: url(../img/linkedin.svg)no-repeat center;background-size: 35px 35px;margin: 0 10px 0 0;}
+.face:hover{transform:scale(1.2);width: 28px;height: 29px;float: left;background: url(../img/face.svg)no-repeat center #224191;background-size: 21px 21px;border-radius: 6px 6px;}
+
+.copy{width: 100%;float: left;text-align: center;font:14px arial;color:#fff;margin: 50px 0 0 0 ;}
+.copy a{text-decoration: underline; color:#fff}
+.menu-responsivo{display:none;}
+.fora{display:none;}
+@media(max-width: 1220px){
+    .margin-auto{width: 96%;margin:0 2%;}
+    .foto p{font-size: 18px;}
+}
+@media(max-width: 1030px){
+    .direita{width:40%;}
+    .foto p{font-size: 16px;}
+    .sites{width: 51%;}
+}
+@media(max-width: 990px){
+    .direita{width:40%;display:none;}
+    .logo{font-size:20px;margin:0;width:50%;height:90px;color:#fff;justify-content: center;}
+    .menu-respon .logo{width:100%;color:#333}
+    .cabecalho{height:90px;}
+    .linha{display:none;}
+    .menu-responsivo{display:block;}
+    .contatos-espaco{display: none;}
+    .engloba-menu-responsivo{display: none;}
+    .cabecalho{height:90px;}
+	.icon-menu { display: block; float: right; width: 32px; height: 32px; margin: 29px 3% 29px 0; background: url(../img/menu.svg) no-repeat center; background-size: 32px;cursor: pointer;}
+	.cabeçalho { height: 90px;border: none;background: #333333;position: fixed;top: 0;z-index: 999;box-shadow: 0 0 20px 0 #333333;}
+	.fundo-menu {width: 100%; position: fixed; height: 100%; top: 0; left: 0; padding: 0; z-index: 9999999;background: rgba(0, 0, 0, 0.65);left: -100%;}
+	.engloba-menu-responsivo { display: initial; border-top: solid 0 #454545; margin: 0; width: 80%; position: fixed; height: 100%; top: 0; left: 0;background: #fff;z-index: 99999999;left: -80%;overflow: auto;padding:0;}
+	.engloba-menu-responsivo a {border-bottom: 1px solid #000;border-left: 5px solid #000;border-top: 1px solid #333;font-family: Arial, Helvetica, sans-serif;float:left;padding: 10px 0 10px 20px; width: calc(100% - 20px); margin: 0; text-align: left;color:#333333;}
+	.engloba-menu-responsivo a:hover { background:#000000e0;box-shadow: inset 10px 0px 0px 0px #fff ;color: #fff;}
+
+    .fundo-secao1{height:auto;}
+    .engloba-secao1{margin:5% 0 0 0;}
+    .foto{float:right;width:0;height:0;padding:25% 50%;background-size: contain;box-shadow:none;}
+    .foto p{display:none;}
+    .fora{font-family:Arial, Helvetica, sans-serif;font-style:italic;font-size:20px;color:#3d3d3d;width:100%;text-align:center;margin:5% 0 0 0;float:left;}
+
+    .skills{width:100%;}
+    .sites{width:100%;margin:5% 0 0 0;}
+    .desen{width:100%;margin:5% 0 0 0;}
+    .pro{width:100%;margin:5% 0 0 0;padding:0 0 5% 0;}
+
+    .engloba-secao2{margin:5% 0 0 0;}
+    .portfolio{margin:0 0 5% 0;}
+    .site{width:100%;}
+    .engloba-secao2 a{margin:5% 0;}
+    .site p{margin:0;}
+    .fundo-footer{margin:5% 0 0 0;}
+    .titulo{margin:5% 0;}
+    .copy{margin:5% 0;}
+    .fundo-footer{height:auto;}
+}
